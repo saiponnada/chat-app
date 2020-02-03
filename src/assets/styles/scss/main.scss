@@ -1,0 +1,36 @@
+@import "./defaults.scss";
+
+html,
+body {
+  font-family: $font-family-sans-serif;
+  background-color: $white;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+.text-primary {
+  color: $red !important;
+}
+
+.btn-primary {
+  background-color: $red;
+  border-color: $red;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+  background-color: $red-shade !important;
+  border-color: $red-shade !important;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}

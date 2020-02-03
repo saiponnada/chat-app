@@ -1,0 +1,26 @@
+//colors
+$red: #eb1700;
+$red-shade: #d91600;
+$maroon:#800000;
+$white: #FFFFFF;
+$lightest-gray: #F3F3F3;
+$light-gray: #D3D3D3;
+$gray: #686868;
+
+// Status colors
+$error-color: #CE0000;
+$warning-color: #FFD100;
+$success-color: #008A00;
+
+// https://typography.doordash.com/
+$dd-font-path: "../../fonts/" !default;
+@font-face {
+  font-family: "DoorDash Regular";
+  src: url("#{$dd-font-path}TTNorms-Regular.eot");
+  src: url("#{$dd-font-path}TTNorms-Regular.eot?#iefix") format("embedded-opentype"), url("#{$dd-font-path}TTNorms-Regular.woff") format("woff"), url("#{$dd-font-path}TTNorms-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+$font-family-sans-serif: "DoorDash Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;

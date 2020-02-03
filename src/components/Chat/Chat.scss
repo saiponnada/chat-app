@@ -1,0 +1,122 @@
+@import "../../assets/styles/scss/defaults.scss";
+
+.appContainer {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 300px auto;
+}
+
+/* aside Side Nav  */
+.leftNav {
+  height: 100vh;
+  background-color: $red;
+  color: $white;
+}
+
+.userDetails {
+  padding: 2rem 0 2.5rem 1.5rem;
+}
+
+.userName {
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+.roomsList ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  li {
+    padding: 1.2em;
+  }
+  li:hover {
+    background-color: $maroon;
+  }
+  li a {
+    font-size: 1.2em;
+  }
+}
+
+.noRooms {
+  text-align: center;
+  justify-content: center;
+  margin: 5rem auto;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+/* section */
+
+.mainContainer {
+  background-color: $lightest-gray;
+  width: 100%;
+  height: 100vh;
+}
+
+.chatHeader {
+  background-color: $white;
+  color: $gray;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid $light-gray;
+  box-shadow: 0px 1px $light-gray;
+  height: 10vh;
+}
+
+.chatMessages {
+  min-height: min-content;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  height: 80vh;
+}
+
+.emptyDiv {
+  width: 100%;
+  min-height: min-content;
+  flex: 1 1 auto;
+}
+
+#emptyScrollDiv {
+  min-height: 10px;
+}
+
+.messageContainer {
+  background-color: $white;
+  border-radius: 20px;
+  padding: 0.5rem 1rem;
+  max-width: 50%;
+  display: inline-block;
+}
+
+.messageText {
+  word-wrap: break-word;
+}
+
+.authorName {
+  width: 100%;
+  color: $gray;
+}
+
+.sentText {
+  background-color: $red;
+  color: $white;
+}
+
+.messageBoxContainer {
+  background-color: $white;
+  color: $gray;
+  width: 100%;
+  border-top: 1px solid $light-gray;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 1rem;
+  height: 10vh;
+}
+.messageBoxContainer div {
+  width: 100%;
+}
